@@ -5,6 +5,7 @@ body{
     background-color: black;
     color: rgb(245, 229, 7);
     font-family:font-family "Roboto", sans-serif; 
+    
 }
 hr.solid{
     border: 0;
@@ -14,17 +15,15 @@ hr.solid{
 .links{
     background-color: #fcfcfc;
     display:flex;
-    width: 15%;
+    width: 60%;
     justify-content:flex-end;
     flex-direction: column;
     gap:20px;
     padding:60px;
-    margin-top:180px;
-    margin-right: 600px;
+     margin-top:180px;
     border-radius: 30px;
     background-image: linear-gradient(80deg,rgb(247, 187, 22), rgb(207, 193, 62));
      
-    
     
 }
 .box{
@@ -42,4 +41,9 @@ hr.solid{
     border-radius: 10px;
     padding:10px;
     
+}
+.container{
+    display:flex;
+    justify-content: center;
+    width: 100%;
 }
