@@ -6,7 +6,10 @@
         color: rgb(5, 5, 4);
         font-family:"Roboto", sans-serif;
         background-image: linear-gradient(80deg,rgb(218, 197, 15), rgb(255, 255, 251));
-        font-size: 30px;     
+        background-attachment: fixed;
+
+        font-size: 30px;
+
     
 }
 .pag-login{
@@ -14,13 +17,17 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    
 
     
 }
-.box-login img {
+#onibus {
 
-    width:30%;
+    width:10%;
     max-width:70%;
+    position:relative;
+    left: 120px;
+    top: 120px;
     
     
     
@@ -28,18 +35,38 @@
 }
 .box-login{
 
-    background-image: linear-gradient(80deg,rgb(130, 123, 123), rgb(255, 255, 251));
-    width: 350px;
-    padding: 20px;
+    background-image: linear-gradient(80deg,rgb(218, 197, 15), rgb(255, 255, 251));;
+    width: 300px;
+    padding: 40px;
+    border-radius: 20px;
     
     
 }
 .pag-login p{
 
     text-align: left;
-    padding: 20px;
+    padding: 0px;
+    margin: 0%;
     
 }
 .pag-login input{
     text-align: left;
+    margin: 0%;
 }
+h1{
+    margin-bottom: -40px;
+}
+p{
+ font-size: 50%;
+  margin-top: 20px;
+}
+.botoes a{
+        font-family:roboto;
+        text-decoration:none;
+        font-weight: 400;
+        font-size: 20px;
+        padding:0px;
+        color: rgb(156, 15, 15);
+    
+}
+
