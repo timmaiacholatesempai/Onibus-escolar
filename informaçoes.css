@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+ body{
+
+    background-color: black;
+    color: rgb(201, 189, 21);
+    text-align: center;
+ }
+ #divBusca{
+    background-color:#E0EEEE;
+    border:solid 2px #5F9EA0;
+    border-radius:10px;
+    width:300px;
+    height:32px;
+  }
+  
+  #txtBusca{
+    float:left;
+    background-color:transparent;
+    padding-left:5px;
+    font-size:18px;
+    border:none;
+    height:21px;
+    width:161px;
+  }
+
+#btnBusca{
+  border:none;
+  float:left;
+  height:32px;
+  border-radius:0 7px 7px 0;
+  width:70px;
+  font-weight:bold;
+  background:#5F9EA0;
+}
+
+#divBusca img{
+  float:left;
+}  
+
+https://www.loopnerd.com.br/codigos-css-prontos/menu-vertical-html-e-css/
