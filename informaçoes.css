@@ -4,37 +4,90 @@
     background-color: black;
     color: rgb(201, 189, 21);
     text-align: center;
+    
  }
- #divBusca{
-    background-color:#E0EEEE;
-    border:solid 2px #5F9EA0;
-    border-radius:10px;
-    width:300px;
-    height:32px;
-  }
-  
-  #txtBusca{
-    float:left;
-    background-color:transparent;
-    padding-left:5px;
-    font-size:18px;
-    border:none;
-    height:21px;
-    width:161px;
-  }
 
-#btnBusca{
-  border:none;
-  float:left;
-  height:32px;
-  border-radius:0 7px 7px 0;
-  width:70px;
-  font-weight:bold;
-  background:#5F9EA0;
+ .menu{
+  width: 300px;
+  height: auto;
+  background-color:transparent;
+  border-radius: 10px 10px;
+  margin: auto;
+  overflow: hidden;
 }
+.header{
+     
+  border-radius: 10px 10px 0px 0px;
+  padding: 20px 0px;
+  background-color: #424242;
+}
+h3{
+  color: #FFFFFF;
+  font-family: 'Roboto', sans-serif;
+  margin-left: 1rem;
+}
+.icon-menu{
+  font-size: 20px;
+  float: left;
+  color: #21dee2;
+}
+.icon{
+  margin-right: 8px;
+}
+.nav li{
+  transition: 1s all;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  padding: 15px;
+  margin-top: 0px;
+  border-bottom: 1px #2b2b2b solid;
+  color: #fff;
+  background-color: #373737;
+  list-style: none;
+  display: block;
+}
+.nav li:last-child { border-bottom:0; }
+li:hover{
+  
+  transition: 0.3s all;
+  color: #373737;
+  background-color: rgb(33, 214, 218);
+  cursor: pointer;
+}
+.nav > li { float:left; }
+.nav li ul{
+  
+  background: #1E2B32;
+  margin-left: 280px;
+  margin-top: -38px;
+  display: none;
+  position: absolute;
+  border-top-right-radius: 15px 15px;
+  border-bottom-right-radius: 15px 15px;
+  
+}
+.nav ul{
+  padding-left: 0%;
+}
+.nav li:hover > ul{
+  
+  display: block;
+  cursor: pointer;
+}
+.box{
 
-#divBusca img{
-  float:left;
-}  
+ display: flex; 
+ width: 100%;/* largura*/
 
-https://www.loopnerd.com.br/codigos-css-prontos/menu-vertical-html-e-css/
+}
+.menu{
+  
+  width: 15%;
+  background-color: #21dee2;
+  height: 100vh;
+}
+.direita{
+  width: 85%;
+  background-image: url(vidro.bus.jpg);
+}
+/* https://www.loopnerd.com.br/codigos-css-prontos/menu-vertical-html-e-css/ */
